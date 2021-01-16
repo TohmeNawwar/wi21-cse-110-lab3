@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Nawwar's Page</title>
     <meta charset="utf-8">
@@ -74,12 +75,11 @@
         <source srcset="spongebob.png" media="(min-width: 800px)"/>
         <img src="patrick.png" alt="" />
     </picture>
-    </p>
     <figure>
-        <img src="icon.png">
+        <img src="icon.png" alt="">
         <audio
             controls
-            src="Spongebob Squarepants - Ending.ogg">
+            src="Spongebob-Squarepants-Ending.ogg">
         </audio>
         <figcaption>:)</figcaption>
     </figure>
@@ -89,7 +89,7 @@
     </canvas>
     <br>
     <video controls width="400">
-        <source src="Spongebob Theme.mp4">
+        <source src="Spongebob-Theme.mp4">
     </video>
     <br>
     <iframe id="wikipedia" 
@@ -99,11 +99,11 @@
         src="https://www.wikipedia.org/">
     </iframe>
     <br>
-    <form action="" method="get" class="testform">
+    <form action="test" method="get" class="testform">
         <div class="testform">
             <label for="ready">Are ya ready kids?</label>
             <input type="text" name="ready" id="ready" required>
-            <input type="button" name="button">
+            <input type="button" name="button" value="Hello">
             <input type="checkbox" name="check">
             <input type="color" name="color">
             <input type="date" name="date">
@@ -113,9 +113,9 @@
         </div>
     </form>
     <br>
-    <label for="how ready">How ready are you?</label>
-    <select id="how ready">
-        <optgroup>
+    <label for="how-ready">How ready are you?</label>
+    <select id="how-ready">
+        <optgroup label="readiness">
             <option>Not Ready</option>
             <option>Somewhat ready</option>
             <option>Ready enough</option>
@@ -155,7 +155,7 @@
     <br>
     <label for="char-select">Choose the character you are most similar to:</label>
 
-    <select name="char-select">
+    <select name="char-select" id="char-select">
         <option value="Spongebob">Spongebob</option>
         <option value="Patrick">Patrick</option>
         <option value="Sandy">Sandy</option>
@@ -173,7 +173,6 @@
     <table>
         <caption>Sum of 1 and 2</caption>
         <colgroup>
-            <col>
             <col span="1" class="vars">
             <col span="1" class="operation">
             <col span="1" class="vars">
@@ -199,7 +198,7 @@
     <template id="template">
         <div>Template</div>
     </template>
-    <svg viewbox="0 0 400 50">s
+    <svg viewbox="0 0 400 50">
         <circle cx="25" cy="25" r="10" />
     </svg>
     <ul>
