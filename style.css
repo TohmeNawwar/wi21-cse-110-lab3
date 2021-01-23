@@ -1,0 +1,21 @@
+header{
+    margin: 1em 1em 1em 1em;
+    padding: 2px 1px 2px 1px;
+    height: 12mm;
+    width: 30mm;
+}
+
+h1{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+h2{
+    margin: auto;
+}
