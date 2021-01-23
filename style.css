@@ -9,6 +9,17 @@ header{
     width: 30mm;
 }
 
+header:active{
+    position: absolute;
+}
+
+em{
+    display: inline;
+    background-color: black;
+    position: sticky;
+    top: 10px;
+}
+
 h1{
     margin-top: 1px;
     margin-bottom: 1px;
@@ -19,7 +30,25 @@ h1{
     padding-right: 1px;
     padding-left: 1px;
 }
+a[href*="google"]{
+    background-color: hsl(208, 100%, 97.1%);
+}
+
+em:hover{
+    background-color: aliceblue;
+}
+
+#how-ready{
+    background-color: aliceblue;
+}
+
+.testform{
+    background-color: aliceblue;
+    display: block;
+    max-width: 50%;
+}
 
 h2{
     margin: auto;
+    min-width: 10%;
 }
