@@ -2,6 +2,7 @@
     font-family: 'Architects Daughter', cursive;
 }
 
+/* header */
 header{
     margin: 1em 1em 1em 1em;
     padding: 2px 1px 2px 1px;
@@ -9,10 +10,12 @@ header{
     width: 30mm;
 }
 
+/* Clicking header */
 header:active{
     position: absolute;
 }
 
+/* black out emphasised text */
 em{
     display: inline;
     background-color: black;
@@ -20,6 +23,7 @@ em{
     top: 10px;
 }
 
+/* header formatting */
 h1{
     margin-top: 1px;
     margin-bottom: 1px;
@@ -30,10 +34,13 @@ h1{
     padding-right: 1px;
     padding-left: 1px;
 }
+
 a[href*="google"]{
     background-color: hsl(208, 100%, 97.1%);
 }
 
+
+/* show emphasis when hovered over */
 em:hover{
     background-color: aliceblue;
 }
